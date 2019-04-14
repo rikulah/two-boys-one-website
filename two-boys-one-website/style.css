@@ -1,12 +1,16 @@
 html {
 	height: 100%;
-	background-image: url("images/food.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-color: rgba(0, 0, 0, 0);
 }
 body {
 	height: 100%;
 	margin: 0;
+}
+#testi {
+	background-image: url("images/food.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .container {
 	margin: auto;
@@ -51,10 +55,58 @@ body {
 	box-sizing: border-box;
 }
 .form-signin {
+	height: 75%;
     padding: 20px 60px 20px 60px;
 	box-sizing: border-box;
 	background-color: rgba(153, 255, 153, 0.5);
 	text-align: center;
+}
+.logo {
+	height: 85px;
+    display:flex;
+    align-items: center;
+    justify-content: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #333;
+}
+.logo h1 {
+	margin: 0px;
+	color: white;
+}
+.nav {
+	
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+li {
+	float: left;
+	box-sizing: border-box;
+	border-top: 1px solid #bbb;
+	border-right: 1px solid #bbb;
+	width: 25%;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 992px) {
+
+}
+@media screen and (max-width: 768px) {
+
 }
 
 
