@@ -6,76 +6,29 @@ body {
 	height: 100%;
 	margin: 0;
 }
-#testi {
-	background-image: url("images/food.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+h2 {
+	color: rgb(255, 204, 153);
 }
-.container {
-	margin: auto;
-	padding-top: 2%;
-	padding-left: 15px;
-	padding-right: 15px;
+form {
 	height: 75%;
-}
-.rowbottom-buffer {
-	margin-top: 22%;
-}
-.row {
-	margin-left: -15px;
-	margin-right: -15px;
-	height: 53%;
-}
-.row:before {
-  content: "";
-  display: table;
-  box-sizing: border-box;
-}
-.row:after {
-  content: "";
-  display: table;
-  box-sizing: border-box;
-}
-.sides {
-	width: 25%;
-	float: left;
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
+	border: 4px solid rgb(255, 204, 153);
+    padding: 20px 20px 20px 20px;
 	box-sizing: border-box;
-}
-.logincontainer {
-	width: 50%;
-	float: left;
-	height: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-	box-sizing: border-box;
-}
-.form-signin {
-	height: 75%;
-    padding: 20px 60px 20px 60px;
-	box-sizing: border-box;
-	background-color: rgba(153, 255, 153, 0.5);
 	text-align: center;
+	background-color: rgba(51, 51, 51, 0.7);
+	color: rgb(255, 204, 153);
+	border-radius: 150px;
+	letter-spacing: 2px;
 }
-.logo {
-	height: 85px;
-    display:flex;
-    align-items: center;
-    justify-content: left;
-	padding-left: 15px;
-	padding-right: 15px;
-	background-color: #333;
-}
-.logo h1 {
-	margin: 0px;
-	color: white;
-}
-.nav {
-	
+form a {
+    color: buttontext;
+	background-color: buttonface;
+	border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+	letter-spacing: 2px;
+
 }
 ul {
 	list-style-type: none;
@@ -97,6 +50,53 @@ li a {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+}
+#testi {
+	background-image: url("images/food.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container {
+	margin: auto;
+	padding-top: 2%;
+	height: 75%;
+}
+.rowbottom-buffer {
+	margin-top: 22%;
+}
+.row {
+	margin-left: 15px;
+	margin-right: 15px;
+	height: 53%;
+	box-sizing: border-box;
+}
+.logincontainer {
+	width: 50%;
+	float: left;
+	height: 100%;
+}
+.sides {
+	width: 25%;
+	float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+	box-sizing: border-box;
+}
+.logo {
+	height: 85px;
+    display:flex;
+    align-items: center;
+    justify-content: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #333;
+}
+.logo h1 {
+	margin: 0px;
+	color: white;
 }
 
 @media screen and (max-width: 1200px) {
