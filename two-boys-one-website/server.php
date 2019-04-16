@@ -7,7 +7,8 @@ $email    = "";
 $errors = array(); 
 
 // connect to the database
-$db = mysqli_connect('localhost', 'root', '', 'rikulah');
+$config = parse_ini_file("/home2-3/r/rikulah/config.ini");
+$db = mysqli_connect($config['host'],$config['name'],$config['pass'],$config['user']);
 
 if (isset($_POST['reg_user'])) {
 	// receive all input values from the form

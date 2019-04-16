@@ -11,11 +11,6 @@ if (isset($_GET['logout'])) {
 }
 ?>
 <!DOCTYPE html>
-
-<?php
-   include('session.php');
-?>
-
 <html lang="en">
 
 <head>
@@ -34,7 +29,7 @@ if (isset($_GET['logout'])) {
 			<li><a href=""></a></li>
 			<li><a href=""></a></li>
 			<li><a href=""></a></li>
-			<li><a href=""></a></li>
+			<li><a href="login.php?logout='1'">logout</a></li>
 		</ul>
 	</div>
 </body>
