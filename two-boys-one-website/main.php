@@ -2,12 +2,12 @@
 session_start(); 
 if (!isset($_SESSION['username'])) {
 	$_SESSION['msg'] = "You must log in first";
-  	header('location: login.php');
+  	header('location: index.php');
 }
 if (isset($_GET['logout'])) {
   	session_destroy();
   	unset($_SESSION['username']);
-  	header("location: login.php");
+  	header("location: index.php");
 }
 ?>
 <!DOCTYPE html>
@@ -29,7 +29,7 @@ if (isset($_GET['logout'])) {
 			<li><a href="">Test</a></li>
 			<li><a href="">Test2</a></li>
 			<li><a href="">Test3</a></li>
-			<li><a href="login.php?logout='1'">logout</a></li>
+			<li><a href="index.php?logout='1'">logout</a></li>
 		</ul>
 	</div>
 </body>

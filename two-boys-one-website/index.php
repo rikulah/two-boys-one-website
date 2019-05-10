@@ -17,7 +17,7 @@
 			<div class="sides">
 			</div>
 			<div class="logincontainer">
-				<form method="post" action="login.php">
+				<form method="post" action="index.php">
 				  	<?php include('errors.php'); ?>
 					<h2>Login</h2>
 					<label>Username:</label>
