@@ -9,10 +9,10 @@
 </head>
 
 <body>
-	<div>
-		<h2>Registering</h2>
-	</div>
 	<form method="post" action="register.php">
+		<div>
+			<h2>Registering</h2>
+		</div>
 	<?php include('errors.php');?>
 		<div>
 			<label>Username</label>

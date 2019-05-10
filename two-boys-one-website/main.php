@@ -26,9 +26,6 @@ if (isset($_GET['logout'])) {
 	</div>
 	<div class="nav">
 		<ul>
-			<li><a href="">Test</a></li>
-			<li><a href="">Test2</a></li>
-			<li><a href="">Test3</a></li>
 			<li><a href="index.php?logout='1'">logout</a></li>
 		</ul>
 	</div>
